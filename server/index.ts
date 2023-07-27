@@ -8,7 +8,6 @@ const app = express();
 app.use(express.json());
 
 app.use(cors());
-d;
 
 app.get('/', (req, res) => {
   res.send('Hello grom express + ts!!aaa!');

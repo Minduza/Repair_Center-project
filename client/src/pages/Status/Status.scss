@@ -1,0 +1,34 @@
+@import '../../styles/colors.scss';
+
+.statusContainer {
+    border:  1px solid $primary-color;
+    width: 90%;
+    margin: 25px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.statusContainer table {
+    width: 90%;
+    margin: 25px 0;
+}
+
+.statusContainer th, .statusContainer td {
+    background-color: lightblue;
+    padding: 0.2rem 0.5rem;
+}
+
+.statusTitle{
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.statusSubtitle {
+    font-weight: 500;
+    font-size: 1rem;
+}

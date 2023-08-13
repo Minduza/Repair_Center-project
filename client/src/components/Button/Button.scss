@@ -1,0 +1,34 @@
+@import "../../styles/colors.scss";
+.btn {
+    padding: 0.8rem 2.5rem;
+    font-size:1rem;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.danger {
+    background-color: rgb(228, 99, 99);
+    color:#f8f8f8
+}
+
+.danger:hover {
+    background-color: rgb(211, 62, 62);
+    color:#f8f8f8
+}
+
+.success {
+    background-color: rgb(100, 148, 219);
+    color:#f8f8f8
+}
+
+.success:hover {
+
+    background-color: $primary-color;
+}
+
+.mg-b-40 {
+    margin-bottom: 40px;
+}

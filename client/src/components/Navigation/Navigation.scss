@@ -1,0 +1,77 @@
+@import '../../styles/colors.scss';
+
+.navContainer {
+    display:flex;
+    flex-direction: column;
+}
+
+.navContainerOuter{
+    background-color:white;
+    position: absolute;
+    top:0;
+    left:0;
+    padding-top: 80px;
+    z-index: 999;
+    width: 100%;
+    min-height:100vh;
+    
+}
+
+.burger {
+    color:white;
+}
+
+
+.navIcon {
+    z-index: 9999;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 2rem;
+}
+
+
+.navItem {
+    display: flex;
+    box-sizing: border-box;
+    border:1px solid $primary-color;
+    border-radius: 1rem;
+    padding: 30px;
+    color:$primary-color;
+    width: 94%;
+    margin: 0.5rem auto;
+    font-size: 1.4rem;
+    
+}
+
+.navItem:hover {
+    
+
+    span {
+        text-decoration: underline;
+    }
+
+    .iconCircle{
+        transform: scale(1.1);
+        background-color: $primary-color;
+        color:white
+    }
+}
+
+
+
+.navItem span {
+    margin: auto;
+    font-weight: 500;
+}
+
+.iconCircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid $primary-color;
+    border-radius: 50%;
+}
+

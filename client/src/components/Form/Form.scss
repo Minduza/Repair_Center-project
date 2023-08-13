@@ -1,0 +1,44 @@
+@import '../../styles/colors.scss';
+
+form {
+    width: 100%;
+}
+
+.label {
+    font-weight: 500;
+    color:black;
+    width: 90%;
+    text-align: left;
+    margin:0 auto;
+}
+
+.selectItem, .inputItem, textarea, .ratioButton{
+    
+    width:90%;
+    box-sizing: border-box;
+    border:1px solid $primary_color;
+    padding:0.8rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 0 auto;
+
+}
+.ratioButton{
+    margin: 0.5rem auto;
+}
+
+textarea{
+    resize: vertical;
+}
+
+
+
+.inputItem:focus, .selectItem:focus, textarea:focus{
+    outline-color: rgb(0, 119, 255);;
+}
+
+.formItem {
+    margin: 0.8rem 0;
+}
+
+

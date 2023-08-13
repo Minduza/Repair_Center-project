@@ -1,0 +1,42 @@
+@import '../../styles/colors.scss';
+
+.header {
+    background-color: $primary-color;
+    min-height: 180px;
+    margin: 0 0 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.header h2 {
+    font-size: 2rem;
+    color:#ffffff;
+}
+
+.circleIcon  {
+    color:$primary-color;
+    font-size: 2rem;
+}
+
+.circleIcon {
+    position: absolute;
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid $primary-color;
+    bottom: 0;
+    transform: translateY(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
